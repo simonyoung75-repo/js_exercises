@@ -68,14 +68,24 @@ console.log(
 );
 
 // grabs the dimentions before we call the method and consoles out
-console.log("Length before", box.dimensions.length);
-console.log("Width before", box.dimensions.width);
-console.log("Height before", box.dimensions.height);
+console.log(
+  "Length before:",
+  box.dimensions.length,
+  "Width before:",
+  box.dimensions.width,
+  "Height before:",
+  box.dimensions.height
+);
 
 // calls the method, resets the values
 box.newBoxDims(50, 40, 30);
 
 //grabs the new dimentions and sends to the console
-console.log("Length after", box.dimensions.length);
-console.log("Width after", box.dimensions.width);
-console.log("Height after", box.dimensions.height);
+console.log(
+  "Length after:",
+  box.dimensions.length,
+  "Width after:",
+  box.dimensions.width,
+  "Height after:",
+  box.dimensions.height
+);
