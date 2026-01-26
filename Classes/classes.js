@@ -1,13 +1,13 @@
 /**
 Creating classes: There are two approaches 
-*  Class declaration: class Name {}  -  so class Jeans { }
-*  Class expression:  const Name = class {}  -  so const jeans = class { }
+*  Class declaration: class Name {}  -  so:  class Jeans { }
+*  Class expression:  const Name = class {}  -  so:   const jeans = class { }
 Desnt matter which you use, they work exactly the same way, just pick the one you prefer
 
 Below i am going to create 3 classes for my shop
 
-NOTE:  When i first wrote this, i had clas ... {} then 'export default Jeans; Shirt; Socks;' at the end
-This worked, but when i consoled out, everything shoed as jeans.  i used google to ask why, and apparently that 
+NOTE:  When i first wrote this, i had class ... {} then 'export default Jeans; Shirt; Socks;' at the end
+This worked, but when i consoled out, everything showed as jeans.  I used google to ask why, and apparently that 
 way wil do that as it can only have the one 'default' (which makes sense now i know) so it suggested each class
 should have export in front of it
 
@@ -77,7 +77,7 @@ export class Socks {
   }
 
   // Add methods like normal functions:
-  newJeansDetails(sty, size, amm, col) {
+  newSocksDetails(sty, size, amm, col) {
     this.style = sty;
     this.size = size;
     this.ammount = amm;
