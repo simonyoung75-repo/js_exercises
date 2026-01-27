@@ -1,0 +1,64 @@
+/* General page styling */
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Flexbox row for alignment */
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line on small screens */
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Individual Card Styling */
+article {
+  flex: 1;
+  min-width: 250px; /* Ensures cards don't get too squished */
+  max-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a nice subtle shadow */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+article:hover {
+  transform: translateY(-5px); /* Card "lifts" when you hover over it */
+}
+
+/* Text styling inside cards */
+h1 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.6;
+}
+
+li {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Emphasize the labels */
+li strong {
+  color: #000;
+  font-weight: 600;
+}

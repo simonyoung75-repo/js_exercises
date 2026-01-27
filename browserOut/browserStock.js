@@ -52,41 +52,6 @@ const trainerSocks = new Socks("Trainer Socks", "3 pairs", "Large", "White");
 //note the following are backticks (next to z on kb) not ' or " and means its a template litteral
 const browserContent = `
 
-<!-- This style section (admitadly googled) stops the stacked lists and creates the output in a line, and makes the boxes the same-->
-
-<style>
-      main {
-        display: block;
-        gap: 20px;
-        justify-content: left;
-        padding: 20px;
-      } 
-      .row {
-        display: flex;
-        gap: 20px;
-        justify-content: left;
-        margin-bottom: 20px;
-      }
-      article {
-        flex: 1;
-        max-width: 350px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        padding: 15px;
-        background-color: #f9f9f9;
-      }
-
-      h1 {
-        font-size: 1.2rem;
-        margin-top: 0;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-  </style>
-
 <!-- This is the content on the browser page, is used $ {} at this is where its pulling js objects in -->
 
     <main>
@@ -103,20 +68,20 @@ const browserContent = `
       <article>
         <h1>${skinny.name}</h1>
         <ul>
-          <li>Style:  ${skinny.style}</l>
-          <li>Waist:  ${skinny.waist}</l>
-          <li>Leg:   ${skinny.leg_len}</l>
-          <li>Colour:   ${skinny.colour}</l>
+          <li>Style:  ${skinny.style}</li>
+          <li>Waist:  ${skinny.waist}</li>
+          <li>Leg:   ${skinny.leg_len}</li>
+          <li>Colour:   ${skinny.colour}</li>
         </ul>
         <ul>
       </article>
       <article>
         <h1>${looseFit.name}</h1>
         <ul>
-          <li>Style:  ${looseFit.style}</l>
-          <li>Waist:  ${looseFit.waist}</l>
-          <li>Leg:   ${looseFit.leg_len}</l>
-          <li>Colour:   ${looseFit.colour}</l>
+          <li>Style:  ${looseFit.style}</li>
+          <li>Waist:  ${looseFit.waist}</li>
+          <li>Leg:   ${looseFit.leg_len}</li>
+          <li>Colour:   ${looseFit.colour}</li>
         </ul>
       </article>
     </section>
@@ -145,7 +110,7 @@ const browserContent = `
         <h1>${longSocks.style}</h1>
         <ul>
           <li>Pack Size: ${longSocks.packSize}</li>
-          <li>Foot Size: ${longSocks.sizeize}</li>
+          <li>Foot Size: ${longSocks.size}</li>
           <li>Colour: ${longSocks.colour}</li>
         </ul>
       </article>
