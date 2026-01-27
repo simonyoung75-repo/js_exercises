@@ -61,7 +61,7 @@ const shortSocks = new Socks(
 );
 const trainerSocks = new Socks(
   "Trainer Socks",
-  "Perfect if you want to flash your ankles",
+  "Show ne some ankles",
   "3 pairs",
   "Large",
   "White",
