@@ -67,7 +67,13 @@ const trainerSocks = new Socks(
   "White",
 );
 
-//note the following are backticks (next to z on kb) not ' or " and means its a template litteral
+/**
+Note the following are backticks (next to z on kb) not ' or " and means its a template litteral.
+I  also accept we shouldnt put stuff in here, but this was the way they did in the lesson, and as yet
+Im not sure how to do that... I did move style to style.css though (and googled to make it prettier)
+and know i should have things in arrays ratehr than repeating lines, but again, not there yet!
+ */
+
 const browserContent = `
 
 <!-- This is the content on the browser page, is used $ {} at this is where its pulling js objects in -->
