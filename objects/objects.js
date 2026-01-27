@@ -64,7 +64,7 @@ console.log("The people", people);
 console.log("People, Specificly simon using dot notation", people.Simon);
 console.log(
   "Bikes from the garage object using bracket notation",
-  garage["Bikes"]
+  garage["Bikes"],
 );
 
 // grabs the dimentions before we call the method and consoles out
@@ -74,11 +74,11 @@ console.log(
   "Width before:",
   box.dimensions.width,
   "Height before:",
-  box.dimensions.height
+  box.dimensions.height,
 );
 
 // calls the method, resets the values
-box.newBoxDims(50, 40, 30);
+box.newBoxDims(60, 50, 40);
 
 //grabs the new dimentions and sends to the console
 console.log(
@@ -87,5 +87,5 @@ console.log(
   "Width after:",
   box.dimensions.width,
   "Height after:",
-  box.dimensions.height
+  box.dimensions.height,
 );

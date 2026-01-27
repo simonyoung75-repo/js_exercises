@@ -1,7 +1,7 @@
 const fruit = {
   apples: 2,
   oranges: 5,
-  banana: 3,
+  banana: 4,
 
   ammendFruit: function (app, ora, ban) {
     this.apples = app;
@@ -16,10 +16,10 @@ console.log(
   "Oranges before:",
   fruit.oranges,
   "Bananas before:",
-  fruit.banana
+  fruit.banana,
 );
 
-fruit.ammendFruit(1, 4, 0);
+fruit.ammendFruit(1, 4, 1);
 
 console.log(
   "Apples aftere:",
@@ -27,5 +27,5 @@ console.log(
   "Oranges after:",
   fruit.oranges,
   "Bananas after:",
-  fruit.banana
+  fruit.banana,
 );
