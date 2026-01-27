@@ -1,7 +1,8 @@
 /**
 This is where i will put my stock, or change my stock.  Currenly this needs to be done in a basic way 
 as i havent figured out how to have multiples where there are some shared properties but some different
-(i.e. Boot cut in 48, 50 and 56 waist withough objects like bootCut32, bootCut34)
+(i.e. Boot cut in 48, 50 and 56 waist withough objects like bootCut32, bootCut34), but suspect that will
+need DB and things like user inputs etc.
 
 I will create a few pairs of jeans, but then change one of them and console out
  */
