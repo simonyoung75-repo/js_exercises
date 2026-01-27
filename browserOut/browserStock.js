@@ -45,9 +45,27 @@ const summerShirt = new Shirt(
 );
 
 //Socks
-const longSocks = new Socks("Long Socks", "5 pairs", "Large", "Black");
-const shortSocks = new Socks("Short Socks", "5 pairs", "Medium", "Blue");
-const trainerSocks = new Socks("Trainer Socks", "3 pairs", "Large", "White");
+const longSocks = new Socks(
+  "Long Socks",
+  "As we all enjoy the longer sock",
+  "5 pairs",
+  "Large",
+  "Black",
+);
+const shortSocks = new Socks(
+  "Short Socks",
+  "Better with shorts",
+  "5 pairs",
+  "Medium",
+  "Blue",
+);
+const trainerSocks = new Socks(
+  "Trainer Socks",
+  "Good for running or being 'fashionable'",
+  "3 pairs",
+  "Large",
+  "White",
+);
 
 //note the following are backticks (next to z on kb) not ' or " and means its a template litteral
 const browserContent = `
@@ -109,6 +127,7 @@ const browserContent = `
       <article>
         <h1>${longSocks.style}</h1>
         <ul>
+          <li>Description: ${longSocks.description}</li>
           <li>Pack Size: ${longSocks.packSize}</li>
           <li>Foot Size: ${longSocks.size}</li>
           <li>Colour: ${longSocks.colour}</li>
@@ -117,6 +136,7 @@ const browserContent = `
       <article>
         <h1>${shortSocks.style}</h1>
         <ul>
+          <li>Description: ${shortSocks.description}</li>
           <li>Pack Size: ${shortSocks.packSize}</li>
           <li>Foot Size: ${shortSocks.size}</li>
           <li>Colour: ${shortSocks.colour}</li>
@@ -125,6 +145,7 @@ const browserContent = `
       <article>
         <h1>${trainerSocks.style}</h1>
         <ul>
+          <li>Description: ${trainerSocks.description}</li>
           <li>Pack Size: ${trainerSocks.packSize}</li>
           <li>Foot Size: ${trainerSocks.size}</li>
           <li>Colour: ${trainerSocks.colour}</li>

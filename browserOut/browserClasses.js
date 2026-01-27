@@ -39,15 +39,17 @@ export class Shirt {
 }
 
 export class Socks {
-  constructor(style, packSize, footSize, colour) {
+  constructor(style, description, packSize, footSize, colour) {
     this.style = style;
+    this.description = description;
     this.packSize = packSize;
     this.size = footSize;
     this.colour = colour;
   }
 
-  newSocksDetails(sty, pack, size, col) {
+  newSocksDetails(sty, desc, pack, size, col) {
     this.style = sty;
+    this.desscription = desc;
     this.packSize = pack;
     this.footSize = size;
     this.colour = col;
