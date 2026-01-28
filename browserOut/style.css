@@ -36,13 +36,14 @@ article {
 
 /* Headline Card Styling */
 .headline {
-  flex: 2;
+  flex: 1;
   min-width: 250px; /* Ensures cards don't get too squished */
   max-width: 500px;
-  border: 2px solid #ddd;
+  margin: 0 auto;
+  border: 3px solid #124b5fdd;
   border-radius: 15px;
   padding: 25px;
-  background-color: #ffffff;
+  background-color: #d8f3f8;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   transition: transform 0.3s ease; /* Smooth hover effect */
 }
@@ -58,6 +59,10 @@ h1 {
   color: #2c3e50;
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
+}
+
+.headline h1 {
+  border-bottom-color: #124b5f; /* Matches your border or use any color like 'orange' */
 }
 
 ul {
