@@ -69,10 +69,10 @@ const trainerSocks = new Socks(
 
 /**
 Note the following are backticks (next to z on kb) not ' or " and means its a template litteral.
-I  also accept we shouldnt put stuff HTML in here, or use document.body at the bottle, but this was
+I also accept we shouldnt put stuff like HTML in here, or use document.body at the bottom, but this was
 the way they did in the lesson, and as yet Im not sure how to do anything about that... 
 I did move style to style.css though (and then googled to make it prettier) and know i should have things
-in arrays ratehr than repeating lines, but again, not there yet!
+in arrays rather than repeating lines, but again, not there yet!
  */
 
 const browserContent = `
