@@ -20,7 +20,7 @@ main {
   margin-bottom: 30px;
 }
 
-/* Individual Card Styling */
+/* Main Card Styling */
 article {
   flex: 1;
   min-width: 250px; /* Ensures cards don't get too squished */
@@ -30,6 +30,20 @@ article {
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+
+/* Headline Card Styling */
+.headline {
+  flex: 2;
+  min-width: 250px; /* Ensures cards don't get too squished */
+  max-width: 500px;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   transition: transform 0.3s ease; /* Smooth hover effect */
 }
 

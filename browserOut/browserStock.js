@@ -80,6 +80,14 @@ const browserContent = `
 
     <main>
     <section class="row">
+      <article class="headline">
+        <h1> This is my shop</h1>
+        We sell everything from ${bootCut.name} and ${skinny.name} to ${dressShirt.name} and ${longSocks.style}.
+        <br></br>
+        So pick what you need and your new pack of ${trainerSocks.packSize} of ${shortSocks.style} will be on their way!
+      </article>
+    </section>
+    <section class="row">
       <article>
         <h1>${bootCut.name}</h1>
         <ul>
