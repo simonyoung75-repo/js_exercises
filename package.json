@@ -1,0 +1,23 @@
+{
+  "name": "js_exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonyoung75-repo/js_exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/simonyoung75-repo/js_exercises/issues"
+  },
+  "homepage": "https://github.com/simonyoung75-repo/js_exercises#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  }
+}
